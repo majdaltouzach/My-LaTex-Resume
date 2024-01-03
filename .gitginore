@@ -15,7 +15,8 @@
 *.cb
 *.cb2
 .*.lb
-
+*.synctex.gz
+*.fdb_latexmk
 ## Intermediate documents:
 *.dvi
 *.xdv
@@ -331,3 +332,11 @@ TSWLatexianTemp*
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/latex,visualstudiocode
+
+# resume compilation files
+./resume.aux
+./resume.fdb_latexmk
+./resume.fls
+./resume.log
+./resume.out
+./resume.synctex.gz
