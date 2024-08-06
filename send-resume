@@ -1,0 +1,8 @@
+#!/bin/sh
+USER=myhttp
+HOST=majdaltoufic.xyz
+PORT=56294
+DIR=/srv/landing.majdaltoufic.xyz
+rsync -avzh  -e "ssh -p 56294" --delete ./Toufic-Majdalani_Resume-2024.pdf ${USER}@${HOST}:${DIR}
+
+exit 0
