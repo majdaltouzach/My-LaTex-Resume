@@ -1,8 +1,5 @@
 #!/bin/sh
-USER=myhttp
-HOST=majdaltoufic.xyz
-PORT=56294
-DIR=/srv/landing.majdaltoufic.xyz
-rsync -avzh  -e "ssh -p 56294" --delete ./Toufic-Majdalani_Resume-2024.pdf ${USER}@${HOST}:${DIR}
-
+cp -v resume.pdf $HOME/DevProjects/majdaltoufic.xyz/static/resume/Toufic-Majdalani_Resume-2024.pdf
+cd $HOME/DevProjects/majdaltoufic.xyz
+./deploy
 exit 0
