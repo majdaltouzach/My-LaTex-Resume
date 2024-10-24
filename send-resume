@@ -1,5 +1,5 @@
 #!/bin/sh
-cp -v resume.pdf $HOME/DevProjects/majdaltoufic.xyz/static/resume/Toufic-Majdalani_Resume-2024.pdf
+cp -v resume.pdf $HOME/DevProjects/majdaltoufic.xyz/static/resume/Toufic-Majdalani_Resume-2024-2025.pdf
 cd $HOME/DevProjects/majdaltoufic.xyz
 ./deploy
 exit 0
