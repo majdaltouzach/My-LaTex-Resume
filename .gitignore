@@ -2,7 +2,6 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=latex
 
 # My config 
-resume.pdf
 ### LaTeX ###
 ## Core latex/pdflatex auxiliary files:
 *.aux
@@ -17,6 +16,7 @@ resume.pdf
 *.cb
 *.cb2
 .*.lb
+*.pdf
 
 ## Intermediate documents:
 *.dvi
